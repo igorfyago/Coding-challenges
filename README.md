@@ -29,8 +29,9 @@ public class kMaxFrequentValues {
 }
 
 public class maxUniqueSubListValues {
-    // TODO: Return the max number of unique values,
-	// among the rolling consecutive sub-lists of size M, for a given list of N integers
+    // TODO: Return the max number of unique values, 
+    // among the rolling consecutive sub-lists of size M, 
+    // for a given list of N integers
 
     public static void main(String[] args) {
         List<Integer> values = Arrays.asList(1, 1, 3, 3, 5, 3);
