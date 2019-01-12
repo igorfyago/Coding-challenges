@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d84518ce-cba9-46dd-a3ce-ada6eed20c59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201901/201901.iml" beforeDir="false" afterPath="$PROJECT_DIR$/201901/201901.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/201901/src/kMaxFrequentValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/201901/src/kMaxFrequentValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/201901/topKbyGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/201901/uniqueSubListNM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/201901/kMaxFrequentValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/201901/kMaxFrequentValues.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/201901/src/maxDistinctSubListValues.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -32,14 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/201901/src/kMaxFrequentValues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -73,8 +67,8 @@
         <option value="$PROJECT_DIR$/201901/src/maxSubListUniqueCount.java" />
         <option value="$PROJECT_DIR$/201901/src/topKbyGroup.java" />
         <option value="$PROJECT_DIR$/201901/src/maxUniqueSubListValues.java" />
-        <option value="$PROJECT_DIR$/201901/src/maxDistinctSubListValues.java" />
         <option value="$PROJECT_DIR$/201901/src/kMaxFrequentValues.java" />
+        <option value="$PROJECT_DIR$/201901/src/maxDistinctSubListValues.java" />
       </list>
     </option>
   </component>
@@ -257,20 +251,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/201901/src/kMaxFrequentValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/201901/src/maxDistinctSubListValues.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201901/src/kMaxFrequentValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

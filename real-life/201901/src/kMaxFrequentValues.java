@@ -15,7 +15,7 @@ public class kMaxFrequentValues {
         return values.stream()
                 .parallel()
                 //.peek(System.out::println)
-                .collect(groupingBy(e -> e, counting()))
+                .collect(groupingByConcurrent (e -> e, counting()))
                 .entrySet().stream()
                 //.peek(System.out::println)
                 .sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue()))
