@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
-public class maxDistinctSubListValues {
+public class maxSubListDistinctValues {
     // TODO: Return the Max() number of Distinct() values,
     //  among the rolling consecutive subList-s of size M, 
     //  for a given List of N Integers
@@ -12,10 +12,10 @@ public class maxDistinctSubListValues {
         int N = values.size();
         int M = 3;
 
-        System.out.println(maxDistinctSubListValues(values, N, M));
+        System.out.println(maxSubListDistinctValues(values, N, M));
     }
 
-    public static Long maxDistinctSubListValues(List<Integer> values, int N, int M) {
+    public static Long maxSubListDistinctValues(List<Integer> values, int N, int M) {
         return IntStream.range(0, N - M + 1)
                 .parallel()
                 .mapToObj(i -> values.subList(i, i + M))
