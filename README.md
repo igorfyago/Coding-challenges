@@ -13,7 +13,7 @@ public class topKbyGroup {
         System.out.println( topKbyGroup(elements, K) ); // Answer: [1, 4, 5]
     }
 
-    public static List<Integer> topKbyGroup(List<Integer> elements, int k) {
+    public static List<Integer> topKbyGroup(List<Integer> elements, int K) {
         Map<Integer, Long> groupMap = elements.stream()
                 .parallel()
                 //.peek(System.out::println)
@@ -22,7 +22,7 @@ public class topKbyGroup {
         return groupMap.entrySet().stream()
                 //.peek(System.out::println)
                 .sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue()))
-                .limit(k)
+                .limit(K)
                 .map(e -> e.getKey())
                 .collect(toList());
     }
