@@ -10,7 +10,7 @@ public class topKbyGroup {
         List<Integer> elements = Arrays.asList(3, 5, 1, 1, 1, 2, 1, 4, 4, 4, 0, 5);
         int K = 3;
 
-        System.out.println( topKbyGroup(elements, K) );
+        System.out.println( topKbyGroup(elements, K) ); // Answer: [1, 4, 5]
     }
 
     public static List<Integer> topKbyGroup(List<Integer> elements, int k) {
@@ -37,7 +37,7 @@ public class uniqueSubListNM {
         int N = elements.size();
         int M = 3;
 
-        System.out.println( maxUniqueCount(elements, N, M) );
+        System.out.println( maxUniqueCount(elements, N, M) ); // Answer: 2
     }
 
     public static long maxUniqueCount(List<Integer> elements, int N, int M) {
