@@ -1,8 +1,8 @@
 # Coding-challenges
 
-examples within the repo ...
-
 ```java
+// some sample ecountered in real life challenges bellow...
+
 public class topKbyGroup {
     // TODO: Return the 'k' most frequent elements in a list of Integers.
     
