@@ -1,7 +1,7 @@
 # Coding-challenges
 
 ```java
-// some sample ecountered in real life challenges bellow...
+// see some ecountered in real life sample challenges bellow...
 
 public class topKbyGroup {
     // TODO: Return the 'k' most frequent elements in a list of Integers.
