@@ -17,12 +17,11 @@ public class topKbyGroup {
                 //.peek(System.out::println)
                 .collect(groupingBy(e -> e, counting()));
 
-        List<Integer> keys = groupMap.entrySet().stream()
+        return groupMap.entrySet().stream()
                 //.peek(System.out::println)
                 .sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue()))
                 .limit(k)
                 .map(e -> e.getKey())
                 .collect(toList());
-        return keys;
     }
 }
