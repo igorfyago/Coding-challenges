@@ -46,7 +46,8 @@ public class uniqueSubListNM {
                 .mapToObj(i -> elements.subList(i, i + M))
                 //.peek(System.out::println)
                 .map(e -> e.stream().distinct().count())
-                .max(Long::compare).get();
+                .reduce(Long::max)
+                .get();
     }
 }
 ```
