@@ -13,12 +13,13 @@ public class uniqueSubListNM {
         System.out.println( maxUniqueCount(elements, N, M) );
     }
 
-    public static long maxUniqueCount(List<Integer> elements, int N, int M) {
+    public static Long maxUniqueCount(List<Integer> elements, int N, int M) {
         return IntStream.range(0, N - M + 1)
                 .parallel()
                 .mapToObj(i -> elements.subList(i, i + M))
                 //.peek(System.out::println)
                 .map(e -> e.stream().distinct().count())
-                .max(Long::compare).get();
+                .reduce(Long::max)
+                .get();
     }
 }
