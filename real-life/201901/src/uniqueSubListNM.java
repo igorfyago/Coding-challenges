@@ -18,7 +18,10 @@ public class uniqueSubListNM {
                 .parallel()
                 .mapToObj(i -> elements.subList(i, i + M))
                 //.peek(System.out::println)
-                .map(e -> e.stream().distinct().count())
+                .map(e -> e.stream()
+                        .parallel()
+                        .distinct()
+                        .count())
                 .reduce(Long::max)
                 .get();
     }
