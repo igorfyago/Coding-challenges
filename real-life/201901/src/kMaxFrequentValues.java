@@ -2,7 +2,7 @@ import java.util.*;
 import static java.util.stream.Collectors.*;
 
 public class kMaxFrequentValues {
-    // TODO: Return the 'k' most frequent values in a list of Integers.
+    // TODO: Return the K Max() frequent values in a List of Integers.
     
     public static void main(String[] args) {
         List<Integer> values = Arrays.asList(3, 5, 1, 1, 1, 2, 1, 4, 4, 4, 0, 5);
