@@ -4,7 +4,7 @@
 // see some ecountered in real life sample challenges bellow...
 
 public class topKbyGroup {
-    // TODO: Return the 'k' most frequent elements in a list of Integers.
+    // TODO: Return the 'K' most frequent elements in a list of Integers.
     
     public static void main(String[] args) {
         List<Integer> elements = Arrays.asList(3, 5, 1, 1, 1, 2, 1, 4, 4, 4, 0, 5);
