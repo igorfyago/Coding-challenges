@@ -1,6 +1,6 @@
 # Coding-challenges
 
-see bellow, some sample solutions, to coding challenges encountered in real life:
+see bellow, some sample solutions, to coding challenges encountered in [real life](real-life/201901/src):
 
 ```java
 public class maxDistinctSubListValues {
