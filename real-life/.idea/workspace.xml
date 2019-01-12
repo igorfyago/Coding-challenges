@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d84518ce-cba9-46dd-a3ce-ada6eed20c59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/201901/src/topKbyGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/201901/src/topKbyGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201901/src/uniqueSubListNM.java" beforeDir="false" afterPath="$PROJECT_DIR$/201901/src/uniqueSubListNM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/201901/topKbyGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/201901/topKbyGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/201901/uniqueSubListNM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/201901/uniqueSubListNM.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/201901/src/topKbyGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/201901/src/uniqueSubListNM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="324">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,8 +60,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/201901/201901.iml" />
-        <option value="$PROJECT_DIR$/201901/src/uniqueSubListNM.java" />
+        <option value="$PROJECT_DIR$/201901/src/uniqueSubListNM_functional.java" />
         <option value="$PROJECT_DIR$/201901/src/topKbyGroup.java" />
+        <option value="$PROJECT_DIR$/201901/src/uniqueSubListNM.java" />
       </list>
     </option>
   </component>
@@ -102,6 +107,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -114,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.uniqueSubListNM">
+  <component name="RunManager" selected="Application.topKbyGroup">
     <configuration name="topKbyGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="topKbyGroup" />
       <module name="201901" />
@@ -129,10 +139,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="uniqueSubListNM_functional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uniqueSubListNM_functional" />
+      <module name="201901" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.uniqueSubListNM" />
         <item itemvalue="Application.topKbyGroup" />
+        <item itemvalue="Application.uniqueSubListNM" />
+        <item itemvalue="Application.uniqueSubListNM_functional" />
       </list>
     </recent_temporary>
   </component>
@@ -166,14 +184,14 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -206,20 +224,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201901/src/uniqueSubListNM.java">
+    <entry file="file://$PROJECT_DIR$/201901/src/uniqueSubListNM_functional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="51">
+          <caret line="7" selection-start-line="7" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201901/src/topKbyGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201901/src/topKbyGroup.java">
+    <entry file="file://$PROJECT_DIR$/201901/src/uniqueSubListNM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="324">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
