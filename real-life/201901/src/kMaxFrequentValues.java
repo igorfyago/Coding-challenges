@@ -12,12 +12,11 @@ public class kMaxFrequentValues {
     }
 
     public static List<Integer> kMaxFrequentValues(List<Integer> values, int K) {
-        Map<Integer, Long> groupMap = values.stream()
+        return values.stream()
                 .parallel()
                 //.peek(System.out::println)
-                .collect(groupingBy(e -> e, counting()));
-
-        return groupMap.entrySet().stream()
+                .collect(groupingBy(e -> e, counting()))
+                .entrySet().stream()
                 //.peek(System.out::println)
                 .sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue()))
                 .limit(K)
