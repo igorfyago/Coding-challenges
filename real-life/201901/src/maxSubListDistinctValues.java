@@ -6,6 +6,7 @@ public class maxSubListDistinctValues {
     // TODO: Return the Max() number of Distinct() values,
     //  among the rolling consecutive subList-s of size M, 
     //  for a given List of N Integers
+    //  example: List(1, 1, 3, 3, 5, 3), N=6, M=3 -> 2
 
     public static void main(String[] args) {
         List<Integer> values = Arrays.asList(1, 1, 3, 3, 5, 3);

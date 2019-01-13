@@ -3,6 +3,7 @@ import static java.util.stream.Collectors.*;
 
 public class kMaxFrequentValues {
     // TODO: Return the K Max() frequent values in a List of Integers.
+    //  example: List(3, 5, 1, 1, 1, 2, 1, 4, 4, 4, 0, 5), K=3 -> [1, 4, 5]
     
     public static void main(String[] args) {
         List<Integer> values = Arrays.asList(3, 5, 1, 1, 1, 2, 1, 4, 4, 4, 0, 5);
