@@ -13,9 +13,7 @@ public class kMaxFrequentValues {
     }
 
     public static List<Integer> kMaxFrequentValues(List<Integer> values, int K) {
-        return values.stream()
-                .parallel()
-                //.peek(System.out::println)
+        return values.stream().parallel()
                 .collect(groupingByConcurrent (e -> e, counting()))
                 .entrySet().stream()
                 //.peek(System.out::println)

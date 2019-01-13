@@ -17,12 +17,11 @@ public class maxSubListDistinctValues {
     }
 
     public static long maxSubListDistinctValues(List<Integer> values, int N, int M) {
-        return IntStream.range(0, N - M + 1)
-                .parallel()
+        return IntStream.rangeClosed(0, N - M).parallel()
                 .mapToObj(i -> values.subList(i, i + M).stream()
-                        .parallel()
                         .distinct()
-                        .count())
+                        .count()
+                )
                 .reduce(Long::max)
                 .get();
     }
