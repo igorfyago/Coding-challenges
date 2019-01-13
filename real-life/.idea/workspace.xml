@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d84518ce-cba9-46dd-a3ce-ada6eed20c59" name="Default Changelist" comment="" />
+    <list default="true" id="d84518ce-cba9-46dd-a3ce-ada6eed20c59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/201901/src/maxSubListDistinctValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/201901/src/maxSubListDistinctValues.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/201901/src/maxSubListDistinctValues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+            <state relative-caret-position="442">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/201901/src/kMaxFrequentValues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="442">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +74,8 @@
         <option value="$PROJECT_DIR$/201901/src/topKbyGroup.java" />
         <option value="$PROJECT_DIR$/201901/src/maxUniqueSubListValues.java" />
         <option value="$PROJECT_DIR$/201901/src/maxDistinctSubListValues.java" />
-        <option value="$PROJECT_DIR$/201901/src/maxSubListDistinctValues.java" />
         <option value="$PROJECT_DIR$/201901/src/kMaxFrequentValues.java" />
+        <option value="$PROJECT_DIR$/201901/src/maxSubListDistinctValues.java" />
       </list>
     </option>
   </component>
@@ -90,8 +92,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,7 +204,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29127517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -246,8 +248,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/201901/src/kMaxFrequentValues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -256,8 +258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/201901/src/maxSubListDistinctValues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+        <state relative-caret-position="442">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

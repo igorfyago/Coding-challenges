@@ -16,12 +16,10 @@ public class maxSubListDistinctValues {
         System.out.println(maxSubListDistinctValues(values, N, M));
     }
 
-    public static Long maxSubListDistinctValues(List<Integer> values, int N, int M) {
+    public static long maxSubListDistinctValues(List<Integer> values, int N, int M) {
         return IntStream.range(0, N - M + 1)
                 .parallel()
-                .mapToObj(i -> values.subList(i, i + M))
-                //.peek(System.out::println)
-                .map(e -> e.stream()
+                .mapToObj(i -> values.subList(i, i + M).stream()
                         .parallel()
                         .distinct()
                         .count())
