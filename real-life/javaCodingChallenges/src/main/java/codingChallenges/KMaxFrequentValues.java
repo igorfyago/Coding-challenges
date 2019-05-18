@@ -8,7 +8,7 @@ public class KMaxFrequentValues {
     //  example: List(3, 5, 1, 1, 1, 2, 1, 4, 4, 4, 0, 5), K=3 -> [1, 4, 5]
     
     public static void main(String[] args) {
-        List<String> values = Arrays.asList("a","b","b","c","z","z","b");
+        List<String> values = Arrays.asList("A","B","C","C","D","C","B");
 
         System.out.println(kMaxFrequentValues(values, 2));
     }
