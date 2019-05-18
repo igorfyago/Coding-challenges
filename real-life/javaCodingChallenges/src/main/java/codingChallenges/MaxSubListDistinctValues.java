@@ -1,8 +1,10 @@
+package codingChallenges;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
-public class maxSubListDistinctValues {
+public class MaxSubListDistinctValues {
     // TODO: Return the Max() number of Distinct() values,
     //  among the rolling consecutive subList-s of size M, 
     //  for a given List of N Integers
