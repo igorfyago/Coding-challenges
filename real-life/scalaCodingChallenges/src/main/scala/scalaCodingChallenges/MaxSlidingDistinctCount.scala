@@ -1,22 +1,28 @@
 package scalaCodingChallenges
 
-object MaxSlidingDistinctCount extends App {
-  // TODO: Return the largest distinct count of values among the sliding sub-lists of size k
+import scalaCodingChallenges.Utils._
+import scalaCodingChallenges.MaxSlidingDistinctCountChallenge._
+import scalaCodingChallenges.MaxSlidingDistinctCountSolution._
 
-  case class Example(data: List[Any], k: Int)
-  case class Examples(example: List[Example])
+// TODO: Return the max distinct count among the values of each sliding sub-list of size k
+
+object MaxSlidingDistinctCount extends App {
+  examples.example map function foreach println
+}
+
+object MaxSlidingDistinctCountChallenge {
 
   val examples = Examples(List(
-     Example(data=List(1, 1, 3, 3, 3, 3, 5, 3)       , k=4) // => 2, List(1, 1, 3, 3)
-    ,Example(data=List("A", "A", "A", "C", 5, "C")   , k=3) // => 3, List(A, C, 5)
-    ,Example(data=List("A", "A", "A")                , k=2) // => 1, List(A, A)
+      Example(data = List(1, 1, 3, 3, 3, 3, 5, 3),      k = 4) // => 2, List(1, 1, 3, 3)
+    , Example(data = List("A", "A", "A", "C", 5, "C"),  k = 3) // => 3, List(A, C, 5)
+    , Example(data = List("A", "A", "A"),               k = 2) // => 1, List(A, A)
   ))
+}
 
-  val function: Example => Int = e =>
-    e.data.par
-      .to.sliding(e.k)
+object MaxSlidingDistinctCountSolution {
+  val function: Example => Int = example =>
+    example.data.par
+      .to.sliding(example.k)
       .map(_.distinct.size)
       .max
-
-  examples.example map function foreach println
 }

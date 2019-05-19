@@ -9,13 +9,13 @@ public class KMaxFrequent {
     //  example_02: List("A","B","C","C","D","C","B"), K=2 -> List(C, B)
 
     public static void main(String[] args) {
-        List<String> values = Arrays.asList("A", "B", "C", "C", "D", "C", "B");
+        List<String> data = Arrays.asList("A", "B", "C", "C", "D", "C", "B");
         int k = 2;
 
-        System.out.println (f(values, k));
+        System.out.println (function(data, k));
     }
 
-    private static <T> List<T> f(List<T> data, int K) {
+    private static <T> List<T> function(List<T> data, int K) {
         return data.stream()
                 .parallel()
                 .collect(groupingBy(e -> e, counting()))

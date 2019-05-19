@@ -2,9 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6b1bcee-d121-449e-b806-e65620760ef2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/Utils/Examples.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaCodingChallenges/target/production/javaCodingChallenges/javaCodingChallenges/KMaxFrequent.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaCodingChallenges/target/production/javaCodingChallenges/javaCodingChallenges/KMaxFrequent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaCodingChallenges/target/production/javaCodingChallenges/javaCodingChallenges/SlidingMaxDistinctCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaCodingChallenges/target/production/javaCodingChallenges/javaCodingChallenges/SlidingMaxDistinctCount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/KMaxFrequent.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/KMaxFrequent.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/MaxSlidingDistinctCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/MaxSlidingDistinctCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$$anonfun$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$$anonfun$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$$anonfun$1$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$.class" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$Example$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$Examples$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$Examples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent.class" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/KMaxFrequent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$$anonfun$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$Example$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$Examples$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$Examples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/target/classes/scalaCodingChallenges/MaxSlidingDistinctCount.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,20 +43,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/KMaxFrequent.scala">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/MaxSlidingDistinctCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="504">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#31#70#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/MaxSlidingDistinctCount.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/KMaxFrequent.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="540">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#30#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,6 +74,7 @@
       <list>
         <option value="Scala Worksheet" />
         <option value="Package Object" />
+        <option value="Scala Class" />
       </list>
     </option>
   </component>
@@ -72,7 +105,15 @@
         <option value="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/SlidingMaxDistinctCount.scala" />
         <option value="$PROJECT_DIR$/javaCodingChallenges/src/main/java/javaCodingChallenges/KMaxFrequent.java" />
         <option value="$PROJECT_DIR$/javaCodingChallenges/src/main/java/javaCodingChallenges/SlidingMaxDistinctCount.java" />
+        <option value="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/Utils/ExamplesContainer.scala" />
+        <option value="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/ExamplesContainer/ExamplesContainer.scala" />
+        <option value="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/ExamplesContainer/ExamplesContainer/Examples.scala" />
+        <option value="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/ExamplesContainer/ExamplesContainer/Example.scala" />
+        <option value="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/ExamplesContainer/Example.scala" />
+        <option value="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/ExamplesContainer/Examples.scala" />
         <option value="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/KMaxFrequent.scala" />
+        <option value="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/Examples/Examples.scala" />
+        <option value="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/Utils/Examples.scala" />
         <option value="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/MaxSlidingDistinctCount.scala" />
       </list>
     </option>
@@ -87,9 +128,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1295" />
-    <option name="height" value="555" />
+    <option name="width" value="1465" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,42 +137,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaCodingChallenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaCodingChallenges" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaCodingChallenges" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaCodingChallenges" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaCodingChallenges" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javaCodingChallenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="scalaCodingChallenges" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,51 +170,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scalaCodingChallenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.12.6" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.12.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library-2.12.6-sources.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.12.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library-2.12.6-sources.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.12.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library-2.12.6-sources.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaCodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.12.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library-2.12.6-sources.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="parallel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,11 +188,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Coding-challenges\real-life\scalaCodingChallenges\src\main\scala\scalaCodingChallenges\ExamplesContainer" />
       <recent name="D:\GitHub\Coding-challenges\real-life\scalaCodingChallenges" />
       <recent name="D:\GitHub\Coding-challenges\real-life\javaCodingChallenges" />
       <recent name="D:\GitHub\Coding-challenges\real-life" />
       <recent name="D:\GitHub\Coding-challenges\real-life\javaCodingChallenges\src\main" />
-      <recent name="D:\GitHub\Coding-challenges\real-life\src\main\java\codingChallenges" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -236,9 +207,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SlidingMaxDistinctCountScala">
+  <component name="RunManager" selected="Application.KMaxFrequentScala">
     <configuration name="KMaxFrequentScala" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="scalaCodingChallenges.KMaxFrequent" />
+      <module name="scalaCodingChallenges" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalaCodingChallenges.Main" />
       <module name="scalaCodingChallenges" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,9 +240,11 @@
       <item itemvalue="Application.KMaxFrequentScala" />
       <item itemvalue="Application.SlidingMaxDistinctCountScala" />
       <item itemvalue="Application.SlidingMaxDistinctCountJava" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SlidingMaxDistinctCountJava" />
       </list>
     </recent_temporary>
@@ -282,6 +262,7 @@
   </component>
   <component name="ScalaProjectSettings">
     <option name="dontShowConversionDialog" value="true" />
+    <option name="ignorePerformance" value="true" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -291,20 +272,28 @@
       <option name="presentableId" value="Default" />
       <updated>1558136379753</updated>
     </task>
+    <task id="LOCAL-00001" summary="added return type to higher order f() to remove: println(_)">
+      <created>1558263148085</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558263148085</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19034852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28284183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.31799164" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.26955307" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,6 +310,10 @@
       <window_info anchor="right" id="Json Parser" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added return type to higher order f() to remove: println(_)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added return type to higher order f() to remove: println(_)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar!/scala/collection/SeqLike.class">
@@ -414,20 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaCodingChallenges/src/main/java/javaCodingChallenges/SlidingMaxDistinctCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaCodingChallenges/src/main/java/javaCodingChallenges/KMaxFrequent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -442,17 +421,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javaCodingChallenges/src/main/java/javaCodingChallenges/SlidingMaxDistinctCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaCodingChallenges/src/main/java/javaCodingChallenges/KMaxFrequent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/ExamplesContainer/ExamplesContainer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/ExamplesContainer/Example.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/Utils/Examples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/KMaxFrequent.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="540">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#30#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/MaxSlidingDistinctCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="504">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#31#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
