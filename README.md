@@ -1,6 +1,6 @@
 # Coding-challenges
 
-see bellow, some sample solutions, to coding challenges encountered in [real life](real-life/scalaCodingChallenges/src/main/scala/scalaCodingChallenges):
+see below, some sample solutions, to [scala coding challenges](real-life/scalaCodingChallenges/src/main/scala/scalaCodingChallenges):
 
 ```scala
 object MaxSlidingDistinctCount extends App {
@@ -15,9 +15,13 @@ object MaxSlidingDistinctCount extends App {
     ,Example(data=List("A", "A", "A")                , k=2) // => 1, List(A, A)
   ))
 
-  val f = (data: List[Any], k: Int) => data.par.to.sliding(k).map(_.distinct.size).max
+  val f = (e: Example) =>
+    e.data.par
+      .to.sliding(e.k)
+      .map(_.distinct.size)
+      .max
 
-  examples.example.foreach(example=> println(f(example.data,example.k)))
+  examples.example map f foreach(println(_))
 }
 ```
 ...
@@ -34,8 +38,14 @@ object KMaxFrequent extends App {
     ,Example(data=List("A", 3, 3, 3,"D","C","B")          ,  k=4) // => 3, A, B, C
   ))
 
-  val f = (data: List[Any], k: Int) => data.par.groupBy(i=>i).to.sortBy(-_._2.size).take(k).map(_._1).mkString(", ")
+  val f = (e: Example) =>
+    e.data.par
+      .groupBy(i => i)
+      .to.sortBy(-_._2.size)
+      .take(e.k)
+      .map(_._1)
+      .mkString(", ")
 
-  examples.example.foreach(example=> println(f(example.data,example.k)))
+  examples.example map f foreach(println(_))
 }
 ```
