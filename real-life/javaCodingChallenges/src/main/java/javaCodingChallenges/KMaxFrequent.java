@@ -12,11 +12,11 @@ public class KMaxFrequent {
         List<String> values = Arrays.asList("A", "B", "C", "C", "D", "C", "B");
         int k = 2;
 
-        System.out.println (kMaxFrequent(values, k));
+        System.out.println (f(values, k));
     }
 
-    private static <T> List<T> kMaxFrequent(List<T> values, int K) {
-        return values.stream()
+    private static <T> List<T> f(List<T> data, int K) {
+        return data.stream()
                 .parallel()
                 .collect(groupingBy(e -> e, counting()))
                 .entrySet().stream()

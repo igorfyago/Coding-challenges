@@ -14,13 +14,13 @@ public class SlidingMaxDistinctCount {
         List<String> values = Arrays.asList("A", "A", "C", "C", "E", "C");
         int m = 3;
 
-        System.out.println (slidingMaxDistinctCount(values, m));
+        System.out.println (f(values, m));
     }
 
-    private static <T> long slidingMaxDistinctCount(List<T> values, int m) {
-        return IntStream.rangeClosed(0, values.size() - m)
+    private static <T> long f(List<T> data, int m) {
+        return IntStream.rangeClosed(0, data.size() - m)
                 .parallel()
-                .mapToObj(i -> values.subList(i, i + m)
+                .mapToObj(i -> data.subList(i, i + m)
                         .stream()
                         .distinct()
                         .count()
