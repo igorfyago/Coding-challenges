@@ -12,11 +12,11 @@ object MaxSlidingDistinctCount extends App {
     ,Example(data=List("A", "A", "A")                , k=2) // => 1, List(A, A)
   ))
 
-  val f = (e: Example) =>
+  val function: Example => Int = e =>
     e.data.par
       .to.sliding(e.k)
       .map(_.distinct.size)
       .max
 
-  examples.example map f foreach(println(_))
+  examples.example map function foreach println
 }

@@ -12,7 +12,7 @@ object KMaxFrequent extends App {
     ,Example(data=List("A", 3, 3, 3,"D","C","B")          ,  k=4) // => 3, A, B, C
   ))
 
-  val f = (e: Example) =>
+  val function: Example => String = e =>
     e.data.par
       .groupBy(i => i)
       .to.sortBy(-_._2.size)
@@ -20,5 +20,5 @@ object KMaxFrequent extends App {
       .map(_._1)
       .mkString(", ")
 
-  examples.example map f foreach(println(_))
+  examples.example map function foreach println
 }
