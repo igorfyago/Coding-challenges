@@ -1,6 +1,6 @@
 # Coding-challenges
 
-see bellow, some sample solutions, to Scala coding challenges encountered in [real life](real-life/scalaCodingChallenges/src/main/scala/scalaCodingChallenges):
+see below, some sample solutions, to [Scala coding challenges](real-life/scalaCodingChallenges/src/main/scala/scalaCodingChallenges):
 
 ```scala
 object MaxSlidingDistinctCount extends App {
