@@ -1,6 +1,6 @@
 # Coding-challenges
 
-Sample project contents: [scala coding challenges](real-life/scalaCodingChallenges/src/main/scala/scalaCodingChallenges):
+[scala coding challenges](real-life/scalaCodingChallenges/src/main/scala/scalaCodingChallenges)
 
 # Return the k most frequent values from a list
 ```scala
