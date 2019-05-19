@@ -1,58 +1,41 @@
 # Coding-challenges
 
-see bellow, some sample solutions, to coding challenges encountered in [real life](real-life/201901/src):
+see bellow, some sample solutions, to coding challenges encountered in [real life](real-life/scalaCodingChallenges/srcmain/scala/scalaCodingChallenges):
 
-```java
-public class maxSubListDistinctValues {
-    // TODO: Return the Max() number of Distinct() values,
-    //  among the rolling consecutive subList-s of size M, 
-    //  for a given List of N Integers
-    //  example: List(1, 1, 3, 3, 5, 3), N=6, M=3 -> 2
+```scala
+object MaxSlidingDistinctCount extends App {
+  // TODO: Return the largest distinct count of values among the sliding sub-lists of size k
 
-    public static void main(String[] args) {
-        List<Integer> values = Arrays.asList(1, 1, 3, 3, 5, 3);
-        int N = values.size();
-        int M = 3;
+  case class Example(data: List[Any], k: Int)
+  case class Examples(example: List[Example])
 
-        System.out.println(maxSubListDistinctValues(values, N, M));
-    }
+  val examples = Examples(List(
+     Example(data=List(1, 1, 3, 3, 3, 3, 5, 3)       , k=4) // => 2, List(1, 1, 3, 3)
+    ,Example(data=List("A", "A", "A", "C", 5, "C")   , k=3) // => 3, List(A, C, 5)
+    ,Example(data=List("A", "A", "A")                , k=2) // => 1, List(A, A)
+  ))
 
-    public static long maxSubListDistinctValues(List<Integer> values, int N, int M) {
-        return IntStream.range(0, N - M + 1)
-                .parallel()
-                .mapToObj(i -> values.subList(i, i + M).stream()
-                        .parallel()
-                        .distinct()
-                        .count())
-                .reduce(Long::max)
-                .get();
-    }
+  val f = (data: List[Any], k: Int) => data.par.to.sliding(k).map(_.distinct.size).max
+
+  examples.example.foreach(example=> println(f(example.data,example.k)))
 }
 ```
 ...
-```java
-public class kMaxFrequentValues {
-    // TODO: Return the K Max() frequent values in a List of Integers.
-    //  example: List(3, 5, 1, 1, 1, 2, 1, 4, 4, 4, 0, 5), K=3 -> [1, 4, 5]
-    
-    public static void main(String[] args) {
-        List<Integer> values = Arrays.asList(3, 5, 1, 1, 1, 2, 1, 4, 4, 4, 0, 5);
-        int K = 3;
+```scala
+object KMaxFrequent extends App {
+  // TODO: Return the k most frequent values from the list
 
-        System.out.println(kMaxFrequentValues(values, K));
-    }
+  case class Example(data: List[Any], k: Int)
+  case class Examples(example: List[Example])
 
-    public static List<Integer> kMaxFrequentValues(List<Integer> values, int K) {
-        return values.stream()
-                .parallel()
-                //.peek(System.out::println)
-                .collect(groupingByConcurrent (e -> e, counting()))
-                .entrySet().stream()
-                //.peek(System.out::println)
-                .sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue()))
-                .limit(K)
-                .map(e -> e.getKey())
-                .collect(toList());
-    }
+  val examples = Examples(List(
+     Example(data=List(3, 5, 1, 4, 1, 2, 1, 4, 4, 1, 0, 5),  k=3) // => 1, 4, 5
+    ,Example(data=List("A","B","C","C","D","C","B")       ,  k=2) // => C, B
+    ,Example(data=List("A", 3, 3, 3,"D","C","B")          ,  k=4) // => 3, A, B, C
+  ))
+
+  val f = (data: List[Any], k: Int) => data.par.groupBy(i=>i).to.sortBy(-_._2.size).take(k).map(_._1).mkString(", ")
+
+  examples.example.foreach(example=> println(f(example.data,example.k)))
 }
 ```
