@@ -11,7 +11,6 @@ object KMaxFrequent extends App {
 }
 
 object KMaxFrequentChallenge {
-
   val examples = Examples(List(
       Example(data = List(3, 5, 1, 4, 1, 2, 1, 4, 4, 1, 0, 5),  k = 3) // => 1, 4, 5
     , Example(data = List("A", "B", "C", "C", "D", "C", "B"),   k = 2) // => C, B
