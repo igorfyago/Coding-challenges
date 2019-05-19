@@ -21,7 +21,7 @@ object MaxSlidingDistinctCount extends App {
       .map(_.distinct.size)
       .max
 
-  examples.example foreach(e => println (f(e)))
+  examples.example map f foreach(println(_))
 }
 ```
 ...
@@ -46,6 +46,6 @@ object KMaxFrequent extends App {
       .map(_._1)
       .mkString(", ")
 
-  examples.example foreach(e => println (f(e)))
+  examples.example map f foreach(println(_))
 }
 ```
