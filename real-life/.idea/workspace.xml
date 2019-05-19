@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6b1bcee-d121-449e-b806-e65620760ef2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/KMaxFrequent.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/KMaxFrequent.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/MaxSlidingDistinctCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/MaxSlidingDistinctCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/Utils/Examples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/Utils/Examples.scala" afterDir="false" />
-    </list>
+    <list default="true" id="b6b1bcee-d121-449e-b806-e65620760ef2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/scalaCodingChallenges/target/" />
@@ -18,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/MaxSlidingDistinctCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="270">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/KMaxFrequent.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="270">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -95,7 +90,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1465" />
     <option name="height" value="824" />
@@ -299,11 +294,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558274498878</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added default-optional fields to case class">
+      <created>1558275190490</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558275190490</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28284183" />
@@ -334,7 +336,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added return type to higher order f() to remove: println(_)" />
     <MESSAGE value="moved Examples case classes to Utils package in Scala proj" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved Examples case classes to Utils package in Scala proj" />
+    <MESSAGE value="added default-optional fields to case class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added default-optional fields to case class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar!/scala/collection/SeqLike.class">
@@ -477,17 +480,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/KMaxFrequent.scala">
+    <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/MaxSlidingDistinctCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="270">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/MaxSlidingDistinctCount.scala">
+    <entry file="file://$PROJECT_DIR$/scalaCodingChallenges/src/main/scala/scalaCodingChallenges/KMaxFrequent.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="270">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
