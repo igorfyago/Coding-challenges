@@ -12,7 +12,13 @@ object KMaxFrequent extends App {
     ,Example(data=List("A", 3, 3, 3,"D","C","B")          ,  k=4) // => 3, A, B, C
   ))
 
-  val f = (data: List[Any], k: Int) => data.par.groupBy(i=>i).to.sortBy(-_._2.size).take(k).map(_._1).mkString(", ")
+  val f = (e: Example) =>
+    e.data.par
+      .groupBy(i => i)
+      .to.sortBy(-_._2.size)
+      .take(e.k)
+      .map(_._1)
+      .mkString(", ")
 
-  examples.example.foreach(example=> println(f(example.data,example.k)))
+  examples.example foreach(e => println (f(e)))
 }
