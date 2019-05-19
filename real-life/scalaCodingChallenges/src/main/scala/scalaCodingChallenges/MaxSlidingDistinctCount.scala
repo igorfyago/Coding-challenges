@@ -4,7 +4,7 @@ import scalaCodingChallenges.Utils._
 import scalaCodingChallenges.MaxSlidingDistinctCountChallenge._
 import scalaCodingChallenges.MaxSlidingDistinctCountSolution._
 
-// ToDo: Return the max distinct count among the values of each sliding sub-list of size k
+// ToDo: Return the max distinct count among sliding sub-lists of size k
 
 object MaxSlidingDistinctCount extends App {
   examples.example map function foreach println
