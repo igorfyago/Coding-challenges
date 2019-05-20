@@ -2,7 +2,7 @@
 
 [scala coding challenges](real-life/scalaCodingChallenges/src/main/scala/scalaCodingChallenges)
 
-# Return the k most frequent values from a list
+## Return the k most frequent values from a list
 ```scala
 object KMaxFrequent extends App {
   examples.example map function foreach println
@@ -27,7 +27,7 @@ object KMaxFrequentSolution {
 }
 
 ```
-# Return the max distinct count among sliding sublists of size k
+## Return the max distinct count among sliding sublists of size k
 ```scala
 object MaxSlidingDistinctCount extends App {
   examples.example map function foreach println
